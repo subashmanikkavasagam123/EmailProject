@@ -1,0 +1,46 @@
+/* #frame{
+    width: 80%;
+    height: 90vh;
+    border: 2px solid red;
+    margin: 25px;
+} */
+
+body{
+    margin: 0px;
+    
+}
+h2{
+    background-color: rgb(250, 247, 108);
+    text-align: center;
+    text-decoration: dotted;
+}
+#from{
+    font-size: larger;
+}
+#user,#password,#to,#subject,#text{
+    width: 98%;
+    padding: 10px;
+    margin: 2px;
+    font-size: medium;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+}
+#text{
+    height: 200px;
+    font-size: large;
+}
+#button{
+    margin-left: 70%;
+    background-color: green;
+    opacity: 0.8;
+    width: 80px;
+    height: 25px;
+    font-weight: bolder;
+    color: white;
+    border: none;
+}
+#button:hover{
+    opacity:1
+}
+

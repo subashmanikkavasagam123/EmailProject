@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mail.css">
+</head>
+<body>
+ 
+        <script src="fetch.js"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+        
+ 
+   <div id="frame">
+       <div id="frame_2">
+    <h2>EMAIL <i class="fas fa-envelope"></i></h2>
+        <div style="font-weight: bold" id="from">FROM</div>
+        <input type="text" placeholder = "Enter your mailid" id="user"><br>
+        <input type="password" placeholder = "Enter your password" id="password">
+        <br><br>
+        <div style="font-weight:bold" id="from">TO::</div>
+        <input type="text" placeholder = "Enter the receiver mailid" id="to">
+        <div style= "padding-top:10px;font-weight:bold">Subject:</div>
+        <input type="text" name="Subject"  id="subject"><br>
+        <textarea placeholder="Compose mail" id="text"></textarea>
+        <br>
+        <label for="frequency">Choose a Frequency:</label>
+        <select name="frequency" id="freq">
+            <option >once only</option> 
+          <option >1 hour</option>
+          <option>2 hour</option>
+          <option>3 hour</option>
+          <option>4 hour</option>
+        </select>
+      
+        <button type="submit" id="button" onclick=" myfunc()">Send <i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+
+        </div>
+    </div>
+</body>
+</html>
